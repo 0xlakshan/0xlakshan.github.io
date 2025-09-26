@@ -1,7 +1,7 @@
 # Lakshan's Portfolio
 
 [https://github.com/0xlakshan/portfolio](https://github.com/0xlakshan/portfolio)
-<img src='./docs/screenshot.png' width='100%'/>
+<img src='./doc/screenshot.png' width='100%'/>
 
 ## Stack
 
