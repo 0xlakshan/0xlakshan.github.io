@@ -11,6 +11,6 @@
 
 #### TODO
 - [ ] Final touch ups
-- [ ] Modularize components
+- [x] Modularize components
 - [ ] Deploy using gh-pages
 - [ ] Reduce the rotate speed of the model
