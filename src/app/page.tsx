@@ -12,21 +12,18 @@ import Socials from "@/components/sections/Socials";
 
 export default function Home() {
   return (
-    <div className="bg-theme-yellow">
-      <div className="container mx-auto max-w-2xl px-4">
-        <main className="w-full max-w-[500px] mx-auto aspect-square">
-          <ForestHouseModel />
-        </main>
-        <Intro />
-        <Contributions />
-        <ProfileCard />
-        <Hobbies />
-        <WorkHistory />
-        <Socials />
-        <Contact />
-        <Footer />
-      </div>
-
+    <div className="container mx-auto max-w-2xl px-4">
+      <main className="w-full max-w-[500px] mx-auto aspect-square">
+        <ForestHouseModel />
+      </main>
+      <Intro />
+      <Contributions />
+      <ProfileCard />
+      <Hobbies />
+      <WorkHistory />
+      <Socials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

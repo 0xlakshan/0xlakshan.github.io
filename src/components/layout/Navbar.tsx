@@ -9,11 +9,11 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <span className="text-xl font-bold">Lakshan Perera</span>
+              <span className="text-xl font-bold">Lakshan Perera 🍂</span>
             </Link>
           </div>
           <div className="flex items-center space-x-6">
-            <a className="flex px-1 py-1.5 border-2 border-solid rounded-sm justify-center" href="https://github.com/0xlakshan/portfolio" target="_blank">
+            <a className="flex px-1.5 py-1.5 border-2 border-solid rounded-sm justify-center" href="https://github.com/0xlakshan/portfolio" target="_blank">
               <FontAwesomeIcon className="self-center" icon={faGithub} />
               <p className="pl-1.5">Source</p>
             </a>

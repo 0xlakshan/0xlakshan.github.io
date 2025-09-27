@@ -13,7 +13,7 @@ export default function ProfileCard() {
           <h1 className="text-2xl font-bold">
             Lakshan Perera
           </h1>
-          <p>Programmer (TypeScript / Linux / Neovim)</p>
+          <p>Developer (TypeScript / Linux / Neovim)</p>
         </div>
       </div>
 
@@ -26,10 +26,12 @@ export default function ProfileCard() {
       </div>
 
       <div className="resume flex justify-center mt-10">
-        <button className="border-2 border-solid py-1.5 pl-4 pr-3 rounded hover:cursor-pointer hover:bg-gray-200">
-          Resume <FontAwesomeIcon icon={faCaretRight} />
+        <button className="border-2 border-solid py-1.5 pl-4 pr-3 rounded hover:cursor-pointer hover:bg-gray-300">
+          Resume<FontAwesomeIcon icon={faCaretRight} />
         </button>
       </div>
     </>
   )
 }
+
+// #319795
