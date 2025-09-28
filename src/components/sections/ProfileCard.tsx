@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import ThemeButton from "../layout/ui/ThemeButton";
 
 export default function ProfileCard() {
   return (
@@ -16,22 +15,14 @@ export default function ProfileCard() {
           <p>Developer (TypeScript / Linux / Neovim)</p>
         </div>
       </div>
-
       <div className="about-section mt-7">
-        <p>I&apos;m a developer who loves building tools and products that are clean, efficient, and just feel nice to use. I’m fluent in TypeScript and prioritize writing maintainable, scalable code</p>
+        <p>I&apos;m a developer who enjoys building tools and products that are useful & feel great to use. I&apos;m pretty fluent in TypeScript and spend a lot of my time contributing to open source and experimenting with react based frameworks.</p>
         <br />
-        <p>I use Ubuntu as my main os, and Neovim as my editor. I’ve really enjoyed diving into the Neovim ecosystem, concepts like Tree sitter and DAP have given me a new appreciation for modern dev tools/IDEs and how they all work together. Lately, I’ve been working on my own dotfiles and config tooling (inspired by Omarchy) to make my setup more portable and better suited to how I work.</p>
+        <p>Lately, I&apos;ve been diving into libraries like React Query and TanStack DB to get a deeper sense of how they work under the hood. I&apos;m also really interested in exploring the internals of JavaScript things like how engines run code, how ASTs are structured, and what makes the language tick at a lower level.</p>
         <br />
-        <p>I&apos;ve recently started diving into React libraries like React Query/Tanstack DB to better understand how they work under the hood, and I’m planning to contribute as I come across interesting issues</p>
+        <p>I really enjoy the open source work I do whether it&apos;s fixing tricky bugs, improving the overall experience, or just helping a project move forward in small but meaningful ways</p>
       </div>
-
-      <div className="resume flex justify-center mt-10">
-        <button className="border-2 border-solid py-1.5 pl-4 pr-3 rounded hover:cursor-pointer hover:bg-gray-300">
-          Resume<FontAwesomeIcon icon={faCaretRight} />
-        </button>
-      </div>
+      <ThemeButton text="Resume" href="#" external={true} />
     </>
   )
 }
-
-// #319795

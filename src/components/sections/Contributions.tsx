@@ -55,6 +55,5 @@ export default function Contributions() {
         ))}
       </div>
     </div>
-
   )
 }
