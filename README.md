@@ -9,8 +9,18 @@
 - [TailWind CSS](https://tailwindcss.com/) - A simple, utility-first, and customizable CSS framework for rapidly building modern websites.
 - [Three.js](https://threejs.org/) - 3D library for JavaScript
 
-#### TODO
-- [ ] Final touch ups
-- [x] Modularize components
-- [ ] Deploy using gh-pages
-- [ ] Reduce the rotate speed of the model
+## Project Structure
+
+```
+Project Root
+├── public
+│   ├── draco # WebAssembly decoder files
+│   └── models # Model file
+├── src
+│   └── app
+└── components
+    ├── foresthouse # Model Component
+    ├── layout 
+    │   └── ui # Theme Components
+    └── sections # Component Files
+```
