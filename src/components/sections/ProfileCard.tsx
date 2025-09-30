@@ -22,7 +22,7 @@ export default function ProfileCard() {
         <br />
         <p>I really enjoy the open source work I do whether it&apos;s fixing tricky bugs, improving the overall experience, or just helping a project move forward in small but meaningful ways</p>
       </div>
-      <ThemeButton text="Resume" href="#" external={true} />
+      <ThemeButton text="Resume" href="https://drive.google.com/file/d/1I65JTOI12bAPGW8-D2jJDgr8zNeZCNUS/view?usp=sharing" external={true} />
     </>
   )
 }
