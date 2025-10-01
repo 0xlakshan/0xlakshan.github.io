@@ -1,10 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCodeMerge, faCodePullRequest, faCaretRight } from "@fortawesome/free-solid-svg-icons";
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { faCodeMerge, faCodePullRequest } from "@fortawesome/free-solid-svg-icons";
 
 type Contribution = {
   href: string,
-  icon: IconDefinition,
   title: string,
   isMerged: boolean
 }
@@ -12,31 +10,26 @@ type Contribution = {
 const contributions: Array<Contribution> = [
   {
     href: "https://github.com/TanStack/db/pull/551",
-    icon: faCodePullRequest,
-    title: "Add select option to extract items while preserving metadata (Open)",
-    isMerged: false
+    title: "Add select option to extract items while preserving metadata",
+    isMerged: true
   },
   {
     href: "https://github.com/nodejs/userland-migrations/pull/166",
-    icon: faCodeMerge,
     title: "Added support for rmdir imports with aliases",
     isMerged: true
   },
   {
     href: "https://github.com/nodejs/userland-migrations/pull/168",
-    icon: faCodeMerge,
     title: "Implemented support for detecting member expression require nodes",
     isMerged: true
   },
   {
     href: "https://github.com/colinhacks/zod/pull/4306",
-    icon: faCodeMerge,
     title: "Added debugging support with tsx runtime",
     isMerged: true
   },
   {
     href: "https://github.com/standard-schema/standard-schema/pull/114",
-    icon: faCodeMerge,
     title: "Add tanstack DB to the standard schema list (doc)",
     isMerged: true
   },
@@ -49,7 +42,7 @@ export default function Contributions() {
       <div className="contributions flex flex-col w-full gap-4 mt-7">
         {contributions.map((item, index) => (
           <a key={index} href={item.href} target="_blank" className={`contribution-card border-2 border-solid rounded-sm p-2 text-base font-bold transition-colors duration-300 ${item.isMerged ? 'text-gray-800 hover:bg-gray-200' : 'text-gray-800 hover:bg-gray-200'}`}>
-            <FontAwesomeIcon className="pl-1" icon={item.icon} />
+            {item.isMerged ? <FontAwesomeIcon className="pl-1" icon={faCodeMerge} /> : <FontAwesomeIcon className="pl-1" icon={faCodePullRequest} />}
             <span className="ml-2">{item.title}</span>
           </a>
         ))}
