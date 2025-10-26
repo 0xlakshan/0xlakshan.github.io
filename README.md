@@ -25,3 +25,5 @@ Project Root
     │   └── ui # Theme Components
     └── sections # Component Files
 ```
+## Todo
+- [ ] Showcase repository logo
