@@ -11,6 +11,13 @@ type Contribution = {
 
 const contributions: Array<Contribution> = [
   {
+    href: "https://github.com/vercel/ai/pull/9437",
+    title: "Introduced Embedding Model middleware",
+    isMerged: true,
+    additions: 794,
+    deletions: 59
+  },
+  {
     href: "https://github.com/TanStack/db/pull/551",
     title: "Add select option to extract items while preserving metadata",
     isMerged: true,
@@ -37,15 +44,6 @@ const contributions: Array<Contribution> = [
     isMerged: true,
     additions: 171,
     deletions: 15
-
-  },
-  {
-    href: "https://github.com/vercel/ai/pull/9437",
-    title: "Introduce wrapEmbeddingModel middleware ",
-    isMerged: false,
-    additions: 739,
-    deletions: 26
-
   },
   {
     href: "https://github.com/standard-schema/standard-schema/pull/114",
@@ -61,8 +59,8 @@ const contributions: Array<Contribution> = [
     additions: 5,
     deletions: 0
   },
-]
-// 
+];
+
 export default function Contributions() {
   return (
     <div className="my-work mt-10">
