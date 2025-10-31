@@ -26,7 +26,7 @@ export default function ThemeButton({
 
   return (
     <div className="resume flex justify-center mt-10">
-      <button onClick={handleClick} className="border-2 border-solid py-1.5 pl-4 pr-3 rounded hover:cursor-pointer hover:bg-gray-300">
+      <button onClick={handleClick} className="bg-[#319795] border-[#319795] text-white border-2 border-solid py-1.5 pl-4 pr-3 rounded hover:cursor-pointer">
         {text} <FontAwesomeIcon icon={faCaretRight} />
       </button>
     </div>

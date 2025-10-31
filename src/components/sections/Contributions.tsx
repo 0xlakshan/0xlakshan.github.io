@@ -67,7 +67,7 @@ export default function Contributions() {
       <h1 className="text-2xl font-bold">Open Source Contributions</h1>
       <div className="contributions flex flex-col w-full gap-4 mt-7">
         {contributions.map((item, index) => (
-          <a key={index} href={item.href} target="_blank" className={`flex justify-between contribution-card border-2 border-solid rounded-sm p-2 text-base font-bold transition-colors duration-300 ${item.isMerged ? 'text-gray-800 hover:bg-gray-200' : 'text-gray-800 hover:bg-gray-200'}`}>
+          <a key={index} href={item.href} target="_blank" className={`flex justify-between contribution-card border-2 border-solid rounded-sm p-2 text-base font-bold transition-colors duration-300 text-gray-800 hover:bg-[#31979514]`}>
             <div>
               {item.isMerged ? <FontAwesomeIcon className="pl-1" icon={faCodeMerge} /> : <FontAwesomeIcon className="pl-1" icon={faCodePullRequest} />}
               <span className="ml-2">{item.title}</span>
