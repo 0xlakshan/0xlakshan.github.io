@@ -20,9 +20,9 @@ export default function ProfileCard() {
         <br />
         <p>I&apos;ve been diving into React libraries to get a deeper sense of how they work under the hood. I&apos;m also really interested in exploring the internals of JavaScript things like how engines run code, how ASTs are structured.</p>
         <br />
-        <p>I currently spend most of my time building and contributing to open source AI Projects, mainly focused on improving the developer experience around AI and My personal projects explore areas that haven't really been solved yet and aim to push the dev experience forward in meaningful ways.</p>
+        <p>I currently spend most of my time building and contributing to open source AI Projects, mainly focused on improving the developer experience around AI and My personal projects explore areas that haven&apos;t really been solved yet and aim to push the dev experience forward in meaningful ways.</p>
         <br />
-        <p>Open source work is something i genuinely enjoy whether it's fixing tricky issues, adding new features or helping a project move forward through meaningful & steady contributions.</p>
+        <p>Open source work is something i genuinely enjoy whether it&apos;s fixing tricky issues, adding new features or helping a project move forward through meaningful & steady contributions.</p>
       </div>
       <ThemeButton text="Resume" href="https://drive.google.com/file/d/1I65JTOI12bAPGW8-D2jJDgr8zNeZCNUS/view?usp=sharing" external={true} />
     </>
