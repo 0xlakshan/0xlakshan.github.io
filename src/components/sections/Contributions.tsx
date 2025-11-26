@@ -70,7 +70,7 @@ const contributions: Array<Contribution> = [
   },
   {
     href: "https://github.com/vercel/ai/pull/10232",
-    title: "Migrate from unsupported Gemini models and drop outdated functionality",
+    title: "Migrate from unsupported Gemini models",
     repoIcon: "https://avatars.githubusercontent.com/u/14985020?s=48&v=4",
     isMerged: false,
     additions: 742,
