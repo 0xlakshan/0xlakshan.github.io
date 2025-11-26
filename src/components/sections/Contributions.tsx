@@ -69,6 +69,14 @@ const contributions: Array<Contribution> = [
     deletions: 0
   },
   {
+    href: "https://github.com/vercel/ai/pull/10232",
+    title: "Migrate from unsupported Gemini models and drop outdated functionality",
+    repoIcon: "https://avatars.githubusercontent.com/u/14985020?s=48&v=4",
+    isMerged: false,
+    additions: 742,
+    deletions: 474
+  },
+  {
     href: "https://github.com/google-gemini/gemini-cli/pull/12722",
     title: "Hide startup tips until folder trust dialog is resolved",
     repoIcon: "https://avatars.githubusercontent.com/u/161781182?s=48&v=4",
