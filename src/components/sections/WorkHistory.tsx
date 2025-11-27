@@ -8,6 +8,10 @@ export default function WorkHistory() {
           <p>Born in Colombo, Sri Lanka</p>
         </div>
         <div>
+          <p className="font-bold">2016</p>
+          <p>Taught myself how to code</p>
+        </div>
+        <div>
           <p className="font-bold">2017 - 2020</p>
           <p>Worked at <a className="underline decoration-soild" target="_blank" href="https://www.linkedin.com/company/edesigners-pvt-ltd">eDesigners</a> as a wordpress developer</p>
         </div>
