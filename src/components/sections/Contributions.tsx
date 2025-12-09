@@ -73,8 +73,8 @@ const contributions: Array<Contribution> = [
     title: "Migrate from unsupported Gemini models",
     repoIcon: "https://avatars.githubusercontent.com/u/14985020?s=48&v=4",
     isMerged: false,
-    additions: 742,
-    deletions: 474
+    additions: 723,
+    deletions: 439
   },
   {
     href: "https://github.com/google-gemini/gemini-cli/pull/12722",
