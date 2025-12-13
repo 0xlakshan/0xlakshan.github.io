@@ -53,6 +53,14 @@ const contributions: Array<Contribution> = [
     deletions: 15
   },
   {
+    href: "https://github.com/codemod/codemod/pull/1895",
+    title: "Next.js update for CVE-2025-67779",
+    repoIcon: "https://avatars.githubusercontent.com/u/78830094?s=48&v=4",
+    isMerged: true,
+    additions: 66,
+    deletions: 71
+  },
+  {
     href: "https://github.com/standard-schema/standard-schema/pull/114",
     title: "Docs: Add tanstack DB to the standard schema list",
     repoIcon: "https://avatars.githubusercontent.com/u/166350654?s=48&v=4",
