@@ -19,6 +19,10 @@ export default function WorkHistory() {
           <p className="font-bold">2021 - 2024</p>
           <p>Worked at <a className="underline decoration-soild" target="_blank" href="https://www.linkedin.com/company/terias-consulting-ltd-/">Terias Consulting</a> as a software engineer</p>
         </div>
+        <div>
+          <p className="font-bold">2025 - Present</p>
+          <p>Independent Open Source Maintainer/Contributor ☕</p>
+        </div>
       </div>
     </div>
   )
