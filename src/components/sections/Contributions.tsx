@@ -21,6 +21,22 @@ const contributions: Array<Contribution> = [
     deletions: 59
   },
   {
+    href: "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/729",
+    title: "Allow opting out of default Chrome launch arguments",
+    repoIcon: "https://avatars.githubusercontent.com/u/11260967?s=48&v=4",
+    isMerged: true,
+    additions: 52,
+    deletions: 6
+  },
+  {
+    href: "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/748",
+    title: "support resize_page when browser window is maximized",
+    repoIcon: "https://avatars.githubusercontent.com/u/11260967?s=48&v=4",
+    isMerged: true,
+    additions: 145,
+    deletions: 1
+  },
+  {
     href: "https://github.com/TanStack/db/pull/551",
     title: "Add select option to extract items while preserving metadata",
     repoIcon: "https://avatars.githubusercontent.com/u/72518640?s=48&v=4",
