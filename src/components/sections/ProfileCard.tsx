@@ -16,7 +16,7 @@ export default function ProfileCard() {
         </div>
       </div>
       <div className="about-section mt-7">
-        <p>I&apos;m a developer who enjoys building tools and products that are useful & feel great to use. I&apos;m pretty fluent in TypeScript and spend a lot of my time contributing to open source and experimenting with react based frameworks.</p>
+        <p>I&apos;m pretty fluent in TypeScript and spend a lot of my time contributing to open source and experimenting with react based frameworks.</p>
         <br />
         <p>I&apos;ve been diving into React libraries to get a deeper sense of how they work under the hood. I&apos;m also really interested in exploring the internals of JavaScript things like how engines run code, how ASTs are structured.</p>
         <br />
@@ -24,7 +24,7 @@ export default function ProfileCard() {
         <br />
         <p>Open source work is something i genuinely enjoy whether it&apos;s fixing tricky issues, adding new features or helping a project move forward through meaningful & steady contributions.</p>
       </div>
-      <ThemeButton text="Resume" href="https://drive.google.com/file/d/1I65JTOI12bAPGW8-D2jJDgr8zNeZCNUS/view?usp=sharing" external={true} />
+      <ThemeButton text="Resume" href="https://drive.google.com/file/d/1iuDpiT2VnEAgKbTVobBNt7D-qdnXytyB/view" external={true} />
     </>
   )
 }
