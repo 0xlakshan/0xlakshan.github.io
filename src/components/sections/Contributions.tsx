@@ -30,7 +30,7 @@ const contributions: Array<Contribution> = [
   },
   {
     href: "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/748",
-    title: "support resize_page when browser window is maximized",
+    title: "Support resize_page when browser window is maximized",
     repoIcon: "https://avatars.githubusercontent.com/u/11260967?s=48&v=4",
     isMerged: true,
     additions: 145,
@@ -91,6 +91,14 @@ const contributions: Array<Contribution> = [
     isMerged: true,
     additions: 5,
     deletions: 0
+  },
+  {
+    href: "https://github.com/vercel/ai/pull/11934",
+    title: "Add support for embeddingTypes in cohere embeddings",
+    repoIcon: "https://avatars.githubusercontent.com/u/14985020?s=48&v=4",
+    isMerged: false,
+    additions: 88,
+    deletions: 4
   },
   {
     href: "https://github.com/vercel/ai/pull/10232",
